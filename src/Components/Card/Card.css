@@ -1,0 +1,364 @@
+:root {
+  --backgroundC: #8160bd;
+}
+
+.todo_card_container {
+  margin-top: 10px;
+  background-color: #dac9f9;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.todo_list_main_title {
+  border-bottom: 1px solid black;
+}
+
+.icon_paperclip {
+  float: right;
+  cursor: pointer;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.modal-header {
+  background-color: var(--backgroundC);
+}
+
+.todo_modal_container {
+  margin-top: 20px;
+  width: 1500px;
+}
+
+.modal_title_icon {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 23px;
+  color: white;
+
+}
+
+.hr_style {
+  width: 50px;
+  height: 5px;
+  border-radius: 10px;
+}
+
+.TodoModal_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.TodoModal_box_title {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+}
+
+.TodoModal_box_title p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.btn-primary {
+  background-color: var(--backgroundC) !important;
+}
+
+.desc_inp {
+  width: 765px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.comment_container {
+  display: flex;
+  margin-top: 30px;
+
+}
+
+.comment_textarea {
+  width: 765px;
+}
+
+.card_footer {
+  display: flex;
+}
+
+.date_of_todo {
+  background-color: var(--backgroundC);
+  padding: 5px;
+  margin-right: 10px;
+
+
+
+}
+
+.compeleted_todo {
+  background-color: gray;
+  min-width: 50px;
+}
+
+.date_of_todo,
+.compeleted_todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  font-size: 13px;
+  border-radius: 15px;
+  color: white;
+}
+
+.checkList_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.checkList_box_title {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+}
+
+.checkList_box_title p {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.checkList_box_title svg {
+  height: 18px;
+  width: 18px;
+}
+
+.todoModal__progress-bar {
+  width: 97%;
+  border-radius: 30px;
+  height: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.todoModal__progress {
+
+  height: 100%;
+  border-radius: 30px;
+  background-color: rgb(47, 137, 164);
+  width: 0;
+  transition: 200ms;
+}
+
+.todoModal_check_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.todoModal_check_list_checkbox {
+  display: flex;
+  gap: 10px;
+}
+
+.todoModal_check_list_checkbox input {
+  width: 400px;
+}
+
+.todoModal_check_list_checkbox input,
+.todoModal_check_list_checkbox svg {
+
+  outline: none;
+  cursor: pointer;
+}
+
+.todoModal_check_list_checkbox svg {
+  font-size: 24px;
+  width: 30px;
+}
+
+.closeBtn2 {
+  margin-top: 5px;
+  width: 40px;
+  font-size: 10px;
+  height: 35px;
+}
+
+.todoModal_check_list_checkbox p {
+  flex: 1;
+  line-height: 18px;
+}
+
+.todoModal_check_checkbox .completed {
+  text-decoration-line: line-through;
+}
+
+.modal-sm {
+  width: 200px !important;
+}
+
+.TodoModal_box ul {
+  display: flex;
+  gap: 15px;
+  margin-left: 20px;
+}
+
+.TodoModal_box ul li {
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.TodoModal_box ul .li_active {
+  box-shadow: 0 0 0 3px yellow;
+}
+
+.nbr {
+  position: relative;
+  bottom: 5px;
+  width: 20px;
+  height: 20px;
+
+}
+
+.displayBtn {
+  display: none;
+}
+
+.addListBtn {
+  width: 720px;
+  display: flex;
+
+
+}
+
+.btnPosClass {
+  width: 40px;
+  height: 35px;
+  margin-top: 5px;
+}
+
+.inputClass {
+  margin-right: 10px;
+  background-color: #8160bd75;
+  border-radius: 6px;
+  color: white;
+  display: flex;
+
+}
+
+.inputClass2 {
+  margin-right: 10px;
+  background-color: #e1a4f3;
+  border-radius: 6px;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 8px;
+
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  background-color: rgb(55, 32, 97);
+
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  border: 1px solid gray;
+}
+
+.list {
+  width: 300px;
+  background-color: #fbf5ff;
+  border: 3px solid rgb(158, 123, 211);
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 4px;
+  border-radius: 10px;
+  color: rgb(68, 29, 126);
+
+
+}
+
+.displyFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_design {
+  border-radius: 4px;
+  border: 1px solid rgb(188, 188, 188);
+  padding: 10px;
+  width: 400px;
+  margin-right: 19px;
+
+}
+
+.displayClass {
+  width: 10px;
+  height: 10px;
+}
+
+.trashBtn {
+  display: none;
+}
+
+.showtrashBtn {
+  font-size: 30px;
+  color: rgb(145, 66, 66);
+  margin-top: 9px;
+  display: block;
+  cursor: pointer;
+}
+
+.checkList__container {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.displayTextClass {
+  color: white;
+  width: 200px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayClass2 {
+  width: 200px;
+  height: 80px;
+}
+
+.label_box {
+  width: 120px;
+  border-radius: 20px;
+  padding: 10px;
+
+}
+
+.label_box span {
+  position: relative;
+  left: 20px;
+
+}

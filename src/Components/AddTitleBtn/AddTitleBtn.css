@@ -1,0 +1,25 @@
+
+.addTodo_btn{
+   border:none;
+   background-color: transparent;
+}
+.plus_icon_card{
+    margin-right:10px;
+}
+.add-todo-title_inp{
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    background-color: white;
+}
+.add-todo-title_btn{
+    border:none;
+    margin-right: 10px;
+    color:white;
+    width: 70px;
+    background-color: rgb(118, 97, 150);
+    border-radius: 5px;
+}
+.input2{
+    background-color: rgb(228, 228, 228);
+}
